@@ -27,7 +27,7 @@ test("select each label in the form", () => {
 // Fill out the form/add text to the fields (use labelText and userEvent)
 
     userEvent.type(firstNameInput, "Rezaur");
-    userEvent.type(lastName, "Rahman");
+    userEvent.type(lastNameInput, "Rahman");
     userEvent.type(messageInput, "Lambda is hope");
 
     // click the button
